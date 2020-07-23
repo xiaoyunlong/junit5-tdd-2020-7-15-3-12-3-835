@@ -10,7 +10,7 @@ public class FizzBuzz {
             return "whizzbuzz";
         }
 
-        if (inputNumber == 21){
+        if (inputNumber % 3 == 0 && inputNumber % 7 == 0) {
             return "fizzwhizz";
         }
 
