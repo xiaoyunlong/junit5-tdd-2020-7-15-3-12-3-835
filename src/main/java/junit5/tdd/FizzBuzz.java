@@ -12,6 +12,9 @@ public class FizzBuzz {
         if (inputNumber % 5 == 0) {
             return "buzz";
         }
+        if (inputNumber % 7 == 0) {
+            return "whizz";
+        }
         return String.valueOf(inputNumber);
     }
 }
