@@ -6,6 +6,10 @@ public class FizzBuzz {
             return "fizzbuzz";
         }
 
+        if (inputNumber % 5 == 0 && inputNumber % 7 == 0) {
+            return "whizzbuzz";
+        }
+
         if (inputNumber % 3 == 0) {
             return "fizz";
         }
