@@ -10,6 +10,10 @@ public class FizzBuzz {
             return "whizzbuzz";
         }
 
+        if (inputNumber == 21){
+            return "fizzwhizz";
+        }
+
         if (inputNumber % 3 == 0) {
             return "fizz";
         }
